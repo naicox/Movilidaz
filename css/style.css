@@ -1,16 +1,17 @@
 /* universal styles */
-body{
+html{
   font-family: Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+}
+.btn {
+ border-color: DEEPSKYBLUE;
+ color: DEEPSKYBLUE;
 }
 /* header */
 .navbar-nav li {
   padding-left: 15px;
 }
-header .btn {
-  border-color: DEEPSKYBLUE;
-  color: DEEPSKYBLUE;
-}
+
 
 /* first secion */
 .jumbotron {
@@ -33,6 +34,7 @@ header .btn {
   margin-bottom: 100px;
   background-color: DEEPSKYBLUE;
   border-color: DEEPSKYBLUE;
+  color: white;
 
 }
 /*Second section  */
@@ -62,9 +64,72 @@ header .btn {
 }
 .media {
    align-items: center;
-   -webkit-box-shadow: 2px 2px 10px rgb(0, 0, 0);
+   -webkit-box-shadow: 2px 2px 10px white;
+   margin: 10px;
+   border-radius: 20px;
 }
 .media img {
   width: 60%;
   height: auto;
+  padding: 8px;
+  border-radius: 20px;
+}
+.media h5 {
+  font-size: 1.3rem;
+  font-family: Verdana;
+  font-style: oblique;
+  font-weight: bold;
+  padding: 6px;
+  color: white;
+}
+.media a {
+  padding: 6px;
+  color: DEEPSKYBLUE;
+}
+.media a:hover {
+  color: white;
+}
+/* 3rd section */
+.ourteam .row {
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+.card {
+  border: none;
+}
+.card img {
+  -webkit-border-radius: 50%;
+}
+.card h5{
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: DEEPSKYBLUE;
+}
+.card p {
+  font-style: italic;
+  color:STEELBLUE;
+  margin: 10px;
+}
+/* about us */
+
+.about-us {
+  background-image: url(https://www.evgo.com/wp-content/uploads/2018/05/request-station-hero-EVgo-1.jpg);
+}
+.about-us h4 {
+  font-size: 3rem;
+  padding: 1.2rem;
+  color: white;
+  font-family: Verdana;
+  margin: 1.8rem;
+}
+.about-us p {
+  font-size: 1.1rem;
+  color: white;
+  font-family: Verdana;
+}
+
+footer .row {
+  justify-content: space-around;
+  padding: 1rem;
 }
